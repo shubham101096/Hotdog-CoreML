@@ -13,6 +13,7 @@
 		EF2AA7B02622FE8600F5D7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2AA7AE2622FE8600F5D7CA /* Main.storyboard */; };
 		EF2AA7B22622FE8700F5D7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2AA7B12622FE8700F5D7CA /* Assets.xcassets */; };
 		EF2AA7B52622FE8700F5D7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2AA7B32622FE8700F5D7CA /* LaunchScreen.storyboard */; };
+		EF2AA7BE2622FE9700F5D7CA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF2AA7BD2622FE9700F5D7CA /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF2AA7B12622FE8700F5D7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2AA7B42622FE8700F5D7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2AA7B62622FE8700F5D7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2AA7BD2622FE9700F5D7CA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF2AA7B12622FE8700F5D7CA /* Assets.xcassets */,
 				EF2AA7B32622FE8700F5D7CA /* LaunchScreen.storyboard */,
 				EF2AA7B62622FE8700F5D7CA /* Info.plist */,
+				EF2AA7BD2622FE9700F5D7CA /* Inceptionv3.mlmodel */,
 			);
 			path = HotdogCoreML;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2AA7AD2622FE8600F5D7CA /* ViewController.swift in Sources */,
+				EF2AA7BE2622FE9700F5D7CA /* Inceptionv3.mlmodel in Sources */,
 				EF2AA7A92622FE8600F5D7CA /* AppDelegate.swift in Sources */,
 				EF2AA7AB2622FE8600F5D7CA /* SceneDelegate.swift in Sources */,
 			);
